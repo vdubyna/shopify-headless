@@ -58,3 +58,14 @@ npx shopify hydrogen link --storefront "shopify-headless"
 ```
 
 Linking your project automatically keeps your local environment variables in sync with Oxygen, allows you to query your store data, and lets you create deployments from the command line at any time. Check the complete list of Hydrogen CLI for a complete list of features.
+
+```bash
+npx shopify hydrogen env pull
+```
+
+```bash
+# Deploy to Oxygen
+npx shopify hydrogen deploy
+```
+
+

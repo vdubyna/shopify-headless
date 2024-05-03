@@ -19,6 +19,7 @@ export function Layout({cart, children = null, footer, header, isLoggedIn}) {
       <SearchAside />
       <MobileMenuAside menu={header?.menu} shop={header?.shop} />
       {header && <Header header={header} cart={cart} isLoggedIn={isLoggedIn} />}
+      <div>Hello world!</div>
       <main>{children}</main>
       <Suspense>
         <Await resolve={footer}>
